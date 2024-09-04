@@ -1,3 +1,5 @@
 # *_Guard The Castle - Home Labs_*
 
-![](https://giphy.com/gifs/xbox-pixel-xbox-series-x-kingdom-new-lands-4yX552XEuSF5VNHi14)
+<p align="center">
+  <img width="500" height="400" src="https://pixeljoint.com/files/icons/full/addeddragonreflection.gif">
+</p>
