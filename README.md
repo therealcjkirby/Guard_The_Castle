@@ -78,3 +78,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 - **zmap** ( [Download](https://github.com/zmap/zmap?tab=readme-ov-file) / [Documentation](https://github.com/zmap/zmap/wiki/Getting-Started-Guide) ) - _Fast single packet network scanner designed for Internet-wide network surveys._
 
+
+## Incident Response
+
+- **The Hive** ( [Download](https://docs.strangebee.com/thehive/download/) / [Documentation](https://docs.strangebee.com/) ) - _Incident Response Platform_
