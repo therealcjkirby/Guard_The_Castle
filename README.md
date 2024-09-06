@@ -15,7 +15,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 > :information_source:  Links to download the tools used and the related documentation will also be provided.
 
 # <ins> Contents </ins>
-- Endpoint / Extended Detection and Response ( EDR / XDR )
+- [Endpoint / Extended Detection and Response ( EDR / XDR )](#endpoint--extended-detection-and-response--edr--xdr-)
   - OSSEC
   - Wazuh
 - Firewalls
