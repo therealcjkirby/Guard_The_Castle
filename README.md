@@ -72,7 +72,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ## Endpoint / Extended Detection and Response ( EDR / XDR )
 
-##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open Source Host-Based Intrusion Detection System (HIDS) with EDR functions_
+##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open Source Host-Based Intrusion Detection System (HIDS) with EDR functions._
 
 ##### **Wazuh** ( [Download](https://wazuh.com/install/) / [Documentation](https://documentation.wazuh.com/current/index.html) ) - _Open source security platform that unifies XDR and SIEM capabilities._
   
@@ -92,7 +92,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ## Honeytokens / Honeypots
 
-##### **Canarytokens** ( [Download](https://github.com/thinkst/canarytokens-docker) / [Documentation](https://docs.canarytokens.org/guide/) ) - _Opensource Honeytokens for networks, computers, clouds and phones_
+##### **Canarytokens** ( [Download](https://github.com/thinkst/canarytokens-docker) / [Documentation](https://docs.canarytokens.org/guide/) ) - _Opensource Honeytokens for networks, computers, clouds and phones._
 
 ##### **Manuka** ( [Download](https://github.com/spaceraccoon/manuka) / [Documentation](https://github.com/spaceraccoon/manuka) ) - _Open-source intelligence (OSINT) honeypot that monitors reconnaissance attempts by threat actors._
   
@@ -104,9 +104,9 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ## Infrastructure Deployment / Maintenance
 
-##### **Ansible** ( [Download](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) / [Documentation](https://docs.ansible.com/users.html) ) - _Infrastrucutre as code tool used for configuration management_
+##### **Ansible** ( [Download](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) / [Documentation](https://docs.ansible.com/users.html) ) - _Infrastrucutre as code tool used for configuration management._
 
-##### **Oracle VM VirtualBox** ( [Download](https://www.virtualbox.org/wiki/Downloads) / [Documentation](https://www.virtualbox.org/wiki/Documentation) ) - _Virtualisation software used to create Virtual Machines_
+##### **Oracle VM VirtualBox** ( [Download](https://www.virtualbox.org/wiki/Downloads) / [Documentation](https://www.virtualbox.org/wiki/Documentation) ) - _Virtualisation software used to create Virtual Machines._
 
 ##### **Terraform** ( [Download](https://developer.hashicorp.com/terraform/install?product_intent=terraform) / [Documentation](https://developer.hashicorp.com/terraform/docs) ) - _Infrastructure as code tool that lets you define both cloud and on-prem resources._
   
@@ -114,9 +114,9 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ## Intrusion Detection / Prevention Systems (IDS/IPS)
 
-##### **Fail2Ban** ( [Download](https://github.com/fail2ban/fail2ban) / [Documentation](https://github.com/fail2ban/fail2ban/tree/master/man) ) - _Python Written IPS software framework designed to prevent brute-force attacks_
+##### **Fail2Ban** ( [Download](https://github.com/fail2ban/fail2ban) / [Documentation](https://github.com/fail2ban/fail2ban/tree/master/man) ) - _Python Written IPS software framework designed to prevent brute-force attacks._
 
-##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open Source Host-Based Intrusion Detection System (HIDS) with EDR functions_
+##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open Source Host-Based Intrusion Detection System (HIDS) with EDR functions._
 
 ##### **Snort** ( [Download](https://www.snort.org/downloads) / [Documentation](https://www.snort.org/documents) ) - _Open source Network-Based Intrusion Prevention System (NIPS)._
 
@@ -140,15 +140,15 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **[Bash](https://www.gnu.org/software/bash/)** - _Default scripting language for most Linux distributions._
 
-##### **[C](https://devdocs.io/c/)** - _General-purpose programming language that provides low-level access to system memory_
+##### **[C](https://devdocs.io/c/)** - _General-purpose programming language that provides low-level access to system memory._
 
-##### **[GoLang](https://go.dev/doc/)** - _High-level programming language designed at Google_
+##### **[GoLang](https://go.dev/doc/)** - _High-level programming language designed at Google._
 
-##### **[JavaScript](https://devdocs.io/javascript/)** - _Most popular programming language for Web pages_
+##### **[JavaScript](https://devdocs.io/javascript/)** - _Most popular programming language for Web pages._
 
 ##### **[Powershell](https://learn.microsoft.com/en-us/powershell/)** - _Default scripting language for Windows._
 
-##### **[Python](https://docs.python.org/3/)** - _Clear and powerful object-oriented programming language_
+##### **[Python](https://docs.python.org/3/)** - _Clear and powerful object-oriented programming language._
 
 ##### **[Structured Query Language (SQL)](https://dev.mysql.com/doc/)** - _Language used to query SQL or “relational” databases._
 
@@ -156,11 +156,11 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ## Security Distributions (Linux)
 
-##### **Kali Linux** ( [Download](https://www.kali.org/get-kali/#kali-platforms) / [Documentation](https://www.kali.org/docs/) ) - _Distribution which allows users to perform advanced penetration testing and security auditing.*
+##### **Kali Linux** ( [Download](https://www.kali.org/get-kali/#kali-platforms) / [Documentation](https://www.kali.org/docs/) ) - _Distribution which allows users to perform advanced penetration testing and security auditing._
 
 ##### **ParrotOS** ( [Download](https://parrotsec.org/download/) / [Documentation](https://parrotsec.org/docs/) ) - _Distribution designed for security experts, developers and privacy aware people._
 
-##### **Security Onion** ( [Download]() / [Documentation](https://docs.securityonion.net/en/2.4/) ) - _Distribution built by defenders for defenders_
+##### **Security Onion** ( [Download]() / [Documentation](https://docs.securityonion.net/en/2.4/) ) - _Distribution built by defenders for defenders._
 
 ## Security Information and Event Management (SIEM)
 
@@ -174,7 +174,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ## Vulnerability Scanners
 
-##### **Nessus Essentials** ( [Download](https://www.tenable.com/products/nessus/nessus-essentials) / [Documentation](https://docs.tenable.com/Nessus.htm) ) - Proprietary vulnerability scanner developed by Tenable.
+##### **Nessus Essentials** ( [Download](https://www.tenable.com/products/nessus/nessus-essentials) / [Documentation](https://docs.tenable.com/Nessus.htm) ) - _Proprietary vulnerability scanner developed by Tenable._
 
 ##### **OpenVAS** ( [Download](https://github.com/greenbone/openvas-scanner) / [Documentation](https://greenbone.github.io/docs/latest/) ) - _Full-featured scan engine that executes Vulnerability Tests (VTs) against target systems._
 
