@@ -18,50 +18,57 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 - [Endpoint / Extended Detection and Response ( EDR / XDR )](#endpoint--extended-detection-and-response--edr--xdr-)
   - [OSSEC](#ossec--download--documentation----open-source-host-based-intrusion-detection-system-hids-with-edr-functions)
   - [Wazuh](#wazuh--download--documentation----open-source-security-platform-that-unifies-xdr-and-siem-capabilities)
-- [Firewalls](https://github.com/therealcjkirby/guard_the_castle/blob/main/README.md#firewalls)
+- [Firewalls](#firewalls)
   - [IPFire](#ipfire--download--documentation----linux-distribution-hardened-to-act-as-a-dedicated-stateful-inspection-firewall)
-  - IPTables
-  - OPNsense
-  - pfSense
-- Honeytokens / Honeypots
-  - Canarytokens
-  - Manuka
-  - OpenCanary
-- Incident Response
-  - The Hive
-- Infrastructure Deployment / Maintenance
-  - Ansible
-  - Oracle VM VirtualBox
-  - Terraform
-  - Vagrant
-- Intrusion Detection / Prevention Systems (IDS / IPS)
-  - Fail2Ban
-  - OSSEC
-  - Snort
-- Network Analysis Tools (Network Analysers)
-  - Wireshark
-  - Zeek
-- Network Mapping Tools
-  - Angry IP Scanner
-  - Masscan
-  - nmap
-  - zmap
-- Programming / Scripting / Decarative (Database) Languages
-  - Bash
-  - C
-  - JavaScript
-  - Powershell
-  - Python
-  - Structured Query Language (SQL)
-- Security Distributions (Linux)
-  - Kali Linux
-  - ParrotOS
-  - Security Onion
-- Security Information and Event Management (SIEM)
-  - OpenSearch
-    - Security Analytics for Opensearch
-  - Prelude OSS
-  - Wazuh
+  - [IPTables](#iptables--documentation----user-space-utility-program-that-allows-a-system-administrator-to-configure-the-ip-packet-filter-rules-of-the-linux-kernel-firewall)
+    - [UFW](#ufw--documentation----provides-a-user-friendly-interface-to-modify-the-iptables-for-ubunutu)
+    - [Firewalld](#firewalld--documentation----provides-a-user-friendly-interface-to-modify-the-iptables-for-centosredhat)
+  - [OPNsense](#opnsense--download--documentation----easy-to-use-and-easy-to-build-freebsd-based-firewall-and-routing-platform)
+  - [pfSense](#pfsense--download--documentation----customised-distribution-of-freebsd-tailored-for-use-as-a-firewall-and-router)
+  - [Windows Defender Firewall](#windows-defender-firewall--documentation----host-based-firewall-that-is-included-with-the-windows_)
+- [Honeytokens / Honeypots](#honeytokens--honeypots)
+  - [Canarytokens](#canarytokens--download--documentation----opensource-honeytokens-for-networks-computers-clouds-and-phones)
+  - [Manuka](#manuka--download--documentation----open-source-intelligence-osint-honeypot-that-monitors-reconnaissance-attempts-by-threat-actors)
+  - [OpenCanary](#opencanary--download--documentation----daemon-that-runs-canary-services-which-trigger-alerts-when-used)
+- [Incident Response](#incident-response)
+  - [The Hive](#the-hive--download--documentation----incident-response-platform)
+- [Infrastructure Deployment / Maintenance](#infrastructure-deployment--maintenance)
+  - [Ansible](#ansible--download--documentation----infrastrucutre-as-code-tool-used-for-configuration-management)
+  - [Oracle VM VirtualBox](#oracle-vm-virtualbox--download--documentation----virtualisation-software-used-to-create-virtual-machines)
+  - [Terraform](#terraform--download--documentation----infrastructure-as-code-tool-that-lets-you-define-both-cloud-and-on-prem-resources)
+  - [Vagrant](#vagrant--download--documentation----tool-for-building-and-managing-virtual-machine-environments-in-a-single-workflow)
+- [Intrusion Detection / Prevention Systems (IDS / IPS)](#intrusion-detection--prevention-systems-idsips)
+  - [Fail2Ban](#fail2ban--download--documentation----python-written-ips-software-framework-designed-to-prevent-brute-force-attacks)
+  - [OSSEC](#ossec--download--documentation----open-source-host-based-intrusion-detection-system-hids-with-edr-functions-1)
+  - [Snort](#snort--download--documentation----open-source-network-based-intrusion-prevention-system-nips)
+- [Network Analysis Tools (Network Analysers)](#network-analysis-tools-network-analysers)
+  - [Wireshark](#wireshark--download--documentation----network-packet-and-protocol-analyser-prsenting-captured-data-in-as-much-detail-as-possible)
+  - [Zeek](#zeek--download--documentation----passive-open-source-network-traffic-analyser)
+- [Network Mapping Tools](#network-mapping-tools)
+  - [Angry IP Scanner](#angry-ip-scanner--download--documentation----widely-used-open-source-and-multi-platform-network-scanner)
+  - [Masscan](#masscan--download--documentation----similar-to-nmap-however-operates-much-faster-and-can-scan-a-large-number-of-ports)
+  - [nmap](#nmap--download--documentation----open-source-tool-for-network-exploration-and-security-auditing)
+  - [zmap](#zmap--download--documentation----fast-single-packet-network-scanner-designed-for-internet-wide-network-surveys)
+- [Programming / Scripting / Decarative (Database) Languages](#programming--scripting--decarative-database-languages)
+  - [Bash](#bash---default-scripting-language-for-most-linux-distributions)
+  - [C](#c---general-purpose-programming-language-that-provides-low-level-access-to-system-memory)
+  - [Go](#golang---high-level-programming-language-designed-at-google)
+  - [JavaScript](#javascript---most-popular-programming-language-for-web-pages)
+  - [Powershell](#powershell---default-scripting-language-for-windows)
+  - [Python](#python---clear-and-powerful-object-oriented-programming-language)
+  - [Structured Query Language (SQL)](#structured-query-language-sql---language-used-to-query-sql-or-relational-databases)
+- [Security Distributions (Linux)](#security-distributions-linux)
+  - [Kali Linux](#kali-linux--download--documentation----_distribution-which-allows-users-to-perform-advanced-penetration-testing-and-security-auditing)
+  - [ParrotOS](#parrotos--download--documentation----distribution-designed-for-security-experts-developers-and-privacy-aware-people)
+  - [Security Onion](#security-onion--download--documentation----distribution-built-by-defenders-for-defenders)
+- [Security Information and Event Management (SIEM)](#security-information-and-event-management-siem)
+  - [OpenSearch](#opensearch--download--documentation---distributed-search-and-analytics-engine)
+    - [Security Analytics for Opensearch](#security-analytics-for-opensearch--documentation----security-information-and-event-management-siem-solution-for-opensearch)
+  - [Prelude OSS](#prelude-oss--download--documentation----agentless-siem-system)
+  - [Wazuh](#wazuh--download--documentation----open-source-security-platform-that-unifies-xdr-and-siem-capabilities-1)
+- [Vulnerability Scanners](#vulnerability-scanners)
+  - [Nessus Essentials](#nessus-essentials--download--documentation----proprietary-vulnerability-scanner-developed-by-tenable)
+  - [OpenVAS](#openvas--download--documentation----full-featured-scan-engine-that-executes-vulnerability-tests-vts-against-target-systems)
 
 ## Endpoint / Extended Detection and Response ( EDR / XDR )
 
@@ -79,7 +86,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **OPNsense** ( [Download](https://opnsense.org/download/) / [Documentation](https://docs.opnsense.org/) ) - _Easy-to-use and easy-to-build FreeBSD based firewall and routing platform._
 
-##### **pfSense** ( [Download](https://www.pfsense.org/download/ ) / [Documentation](https://docs.netgate.com/pfsense/en/latest/?_gl=1*jffkzm*_gcl_au*MjEyMzA0MTk5LjE3MjU1MDQwOTk.*_ga*OTkxOTIyMDk4LjE3MjU1MDQwOTk.*_ga_TM99KBGXCB*MTcyNTUwNDA5OS4xLjEuMTcyNTUwNDE0NS4xNC4wLjA.) ) - _Customised distribution of FreeBSD tailored for use as a firewall and router._
+##### **pfSense** ( [Download](QwOTk.*_ga_TM99KBGXCB*MTcyNTUwNDA5OS4xLjEuMTcyNTUwNDE0NS4xNC4wLjA.) ) - _Customised distribution of FreeBSD tailored for use as a firewall and router._
     
 ##### **Windows Defender Firewall** ( [Documentation](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/) ) - Host-based firewall that is included with the Windows._
 
@@ -153,7 +160,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **ParrotOS** ( [Download](https://parrotsec.org/download/) / [Documentation](https://parrotsec.org/docs/) ) - _Distribution designed for security experts, developers and privacy aware people._
 
-##### **Security Onion** ( [Download](https://github.com/Security-Onion-Solutions/securityonion/blob/2.4/main/DOWNLOAD_AND_VERIFY_ISO.md) / [Documentation](https://docs.securityonion.net/en/2.4/) ) - _Distribution built by defenders for defenders_
+##### **Security Onion** ( [Download]() / [Documentation](https://docs.securityonion.net/en/2.4/) ) - _Distribution built by defenders for defenders_
 
 ## Security Information and Event Management (SIEM)
 
