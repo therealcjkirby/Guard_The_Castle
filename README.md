@@ -15,6 +15,9 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 > :information_source:  Links to download the tools used and the related documentation will also be provided.
 
 # <ins> Contents </ins>
+- [Encryption Tools]
+  - [VeraCrypt]
+  - [Cryptsetup]
 - [Endpoint / Extended Detection and Response ( EDR / XDR )](#endpoint--extended-detection-and-response--edr--xdr-)
   - [OSSEC](#ossec--download--documentation----open-source-host-based-intrusion-detection-system-hids-with-edr-functions)
   - [Wazuh](#wazuh--download--documentation----open-source-security-platform-that-unifies-xdr-and-siem-capabilities)
@@ -70,11 +73,17 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
   - [Nessus Essentials](#nessus-essentials--download--documentation----proprietary-vulnerability-scanner-developed-by-tenable)
   - [OpenVAS](#openvas--download--documentation----full-featured-scan-engine-that-executes-vulnerability-tests-vts-against-target-systems)
 
+## Encryption Tools
+
+##### **VeraCrypt** ( [Download](https://www.veracrypt.fr/en/Downloads.html) / [Documentation](https://www.veracrypt.fr/en/Documentation.html) ) - _Software for establishing and maintaining volume encryption._
+
+##### **Cryptsetup** ( [Download](https://gitlab.com/cryptsetup/cryptsetup) / [Documentation](https://www.veracrypt.fr/en/Documentation.html) ) _Open-source utility used to setup disk encryption._
+
 ## Endpoint / Extended Detection and Response ( EDR / XDR )
 
-##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open Source Host-Based Intrusion Detection System (HIDS) with EDR functions._
+##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open-source Host-Based Intrusion Detection System (HIDS) with EDR functions._
 
-##### **Wazuh** ( [Download](https://wazuh.com/install/) / [Documentation](https://documentation.wazuh.com/current/index.html) ) - _Open source security platform that unifies XDR and SIEM capabilities._
+##### **Wazuh** ( [Download](https://wazuh.com/install/) / [Documentation](https://documentation.wazuh.com/current/index.html) ) - _Open-source security platform that unifies XDR and SIEM capabilities._
   
 ## Firewalls
   
@@ -116,9 +125,11 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **Fail2Ban** ( [Download](https://github.com/fail2ban/fail2ban) / [Documentation](https://github.com/fail2ban/fail2ban/tree/master/man) ) - _Python Written IPS software framework designed to prevent brute-force attacks._
 
-##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open Source Host-Based Intrusion Detection System (HIDS) with EDR functions._
+##### **Suricata** ( [Download](https://suricata.io/download/) / [Documentation](https://docs.suricata.io/en/latest/) ) - _Open-source engine with NIDS, NIPS and Network Monitoring capabilities._
 
-##### **Snort** ( [Download](https://www.snort.org/downloads) / [Documentation](https://www.snort.org/documents) ) - _Open source Network-Based Intrusion Prevention System (NIPS)._
+##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open-source Host-Based Intrusion Detection System (HIDS) with EDR functions._
+
+##### **Snort** ( [Download](https://www.snort.org/downloads) / [Documentation](https://www.snort.org/documents) ) - _Open-source Network-Based Intrusion Prevention System (NIPS)._
 
 ## Network Analysis Tools (Network Analysers)
 
@@ -132,7 +143,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **Masscan** ( [Download](https://www.kali.org/tools/masscan/#masscan) / [Documentation](https://www.kali.org/tools/masscan/) ) - _Similar to nmap however operates much faster and can scan a large number of ports._
 
-##### **nmap** ( [Download](https://nmap.org/download) / [Documentation](https://nmap.org/docs.html) ) - _Open source tool for network exploration and security auditing._
+##### **nmap** ( [Download](https://nmap.org/download) / [Documentation](https://nmap.org/docs.html) ) - _Open-source tool for network exploration and security auditing._
 
 ##### **zmap** ( [Download](https://github.com/zmap/zmap?tab=readme-ov-file) / [Documentation](https://github.com/zmap/zmap/wiki/Getting-Started-Guide) ) - _Fast single packet network scanner designed for Internet-wide network surveys._
 
@@ -170,7 +181,29 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **Prelude OSS** ( [Download](https://www.prelude-siem.org/projects/prelude/files) / [Documentation](https://www.prelude-siem.org/projects/prelude/wiki) ) - _Agentless SIEM system._
 
-##### **Wazuh** ( [Download](https://wazuh.com/install/) / [Documentation](https://documentation.wazuh.com/current/index.html) ) - _Open source security platform that unifies XDR and SIEM capabilities._
+##### **Wazuh** ( [Download](https://wazuh.com/install/) / [Documentation](https://documentation.wazuh.com/current/index.html) ) - _Open-source security platform that unifies XDR and SIEM capabilities._
+
+## Security Monitoring
+
+##### **Elasticsearch** ( [Download](https://www.elastic.co/downloads/elasticsearch) / [Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/8.15/index.html) ) - _Distributed search and analytics engine. Component of ELK Stack_
+
+##### **Kibana** ( [Download](https://www.elastic.co/downloads/kibana) / [Documentation](https://www.elastic.co/guide/en/kibana/current/index.html) ) - _Data visualisation software. Component of ELK Stack._
+
+##### **Logstash** ( [Download](https://www.elastic.co/downloads/logstash) / [Documentation](https://www.elastic.co/guide/en/logstash/current/index.html) ) - _Data collection engine. Component of ELK Stack._
+
+##### **Suricata** ( [Download](https://suricata.io/download/) / [Documentation](https://docs.suricata.io/en/latest/) ) - _Open-source engine with NIDS, NIPS and Network Monitoring capabilities._
+
+##### **Velociraptor** ( [Download](https://docs.velociraptor.app/downloads/) / [Documentation](https://docs.velociraptor.app/docs/overview/) ) - _Open-source endpoint monitoring, digital forensic and cyber response platform._
+
+## Threat Intelligence
+
+##### The Hunting ELK ( [Download](https://thehelk.com/installation.html) / [Documentation](https://thehelk.com/intro.html) ) - _Open-source Threat Hunting platform with advanced analytics capabilities._
+
+## Virtual Private Netowrk (VPN)
+
+##### **OpenVPN** ( [Download](https://openvpn.net/product-select/) / [Documentation](https://openvpn.net/community-resources/#documentation) ) - _Traditional SSL/TLS-based virtual private network._
+
+##### **Firezone** ( [Download](https://www.firezone.dev/kb/client-apps) / [Documentation](https://www.firezone.dev/kb) ) - _Open-source platofrm to securely manage remote access_
 
 ## Vulnerability Scanners
 
