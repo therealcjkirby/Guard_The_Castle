@@ -18,8 +18,8 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 - [Endpoint / Extended Detection and Response ( EDR / XDR )](#endpoint--extended-detection-and-response--edr--xdr-)
   - [OSSEC](#ossec--download--documentation----open-source-host-based-intrusion-detection-system-hids-with-edr-functions)
   - [Wazuh](#wazuh--download--documentation----open-source-security-platform-that-unifies-xdr-and-siem-capabilities)
-- Firewalls
-  - IPFire
+- [Firewalls](https://github.com/therealcjkirby/guard_the_castle/blob/main/README.md#firewalls)
+  - [IPFire](#ipfire--download--documentation----linux-distribution-hardened-to-act-as-a-dedicated-stateful-inspection-firewall)
   - IPTables
   - OPNsense
   - pfSense
