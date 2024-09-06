@@ -139,9 +139,9 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **OSSEC** ( [Download](https://www.ossec.net/ossec-downloads/) / [Documentation](https://www.ossec.net/docs/) ) - _Open-source Host-Based Intrusion Detection System (HIDS) with EDR functions._
 
-##### **Suricata** ( [Download](https://suricata.io/download/) / [Documentation](https://docs.suricata.io/en/latest/) ) - _Open-source engine with NIDS, NIPS and Network Monitoring capabilities._
-
 ##### **Snort** ( [Download](https://www.snort.org/downloads) / [Documentation](https://www.snort.org/documents) ) - _Open-source Network-Based Intrusion Prevention System (NIPS)._
+
+##### **Suricata** ( [Download](https://suricata.io/download/) / [Documentation](https://docs.suricata.io/en/latest/) ) - _Open-source engine with NIDS, NIPS and Network Monitoring capabilities._
 
 ## Network Analysis Tools (Network Analysers)
 
