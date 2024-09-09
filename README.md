@@ -35,6 +35,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
   - [OpenCanary](#opencanary--download--documentation----daemon-that-runs-canary-services-which-trigger-alerts-when-used)
 - [Incident Response](#incident-response)
   - [The Hive](#the-hive--download--documentation----incident-response-platform)
+  - [Velociraptor](#velociraptor--download--documentation----open-source-endpoint-monitoring-digital-forensic-and-cyber-response-platform)
 - [Infrastructure Deployment / Maintenance](#infrastructure-deployment--maintenance)
   - [Ansible](#ansible--download--documentation----infrastrucutre-as-code-tool-used-for-configuration-management)
   - [Oracle VM VirtualBox](#oracle-vm-virtualbox--download--documentation----virtualisation-software-used-to-create-virtual-machines)
@@ -45,7 +46,8 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
   - [OSSEC](#ossec--download--documentation----open-source-host-based-intrusion-detection-system-hids-with-edr-functions-1)
   - [Snort](#snort--download--documentation----open-source-network-based-intrusion-prevention-system-nips)
   - [Suricata](#suricata--download--documentation----open-source-engine-with-nids-nips-and-network-monitoring-capabilities)
-- [Network Analysis Tools (Network Analysers)](#network-analysis-tools-network-analysers)
+- [Network Analysis Tools (Network Analysers) / Monitoring ](#network-analysis-tools-network-analysers)
+  - [OpenNMS Horizon](#opennms-horizon--download--documentation----open-source-network-monitoring-solution)
   - [Wireshark](#wireshark--download--documentation----network-packet-and-protocol-analyser-prsenting-captured-data-in-as-much-detail-as-possible)
   - [Zeek](#zeek--download--documentation----passive-open-source-network-traffic-analyser)
 - [Network Mapping Tools](#network-mapping-tools)
@@ -75,8 +77,10 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
   - [Kibana](#kibana--download--documentation----data-visualisation-software-component-of-elk-stack)
   - [Logstash](#logstash--download--documentation----data-collection-engine-component-of-elk-stack)
   - [Suricata](#suricata--download--documentation----open-source-engine-with-nids-nips-and-network-monitoring-capabilities-1)
-  - [Velociraptor](#velociraptor--download--documentation----open-source-endpoint-monitoring-digital-forensic-and-cyber-response-platform)
+  - [Velociraptor](#velociraptor--download--documentation----open-source-endpoint-monitoring-digital-forensic-and-cyber-response-platform-1)
 - [Threat Hunting](#threat-hunting)
+  - [APT-Hunter](#apt-hunter--download--documentation----threat-hunting-tool-for-windows-event-logs)
+  - [Cuckoo Sandbox](#cuckoo-sandbox--download--documentation----open-source-automated-malware-analysis-system)
   - [The Hunting ELK](#the-hunting-elk--download--documentation----open-source-threat-hunting-platform-with-advanced-analytics-capabilities)
 - [Virtual Private Network (VPN)](#virtual-private-netowrk-vpn)
   - [OpenVPN](#openvpn--download--documentation----traditional-ssltls-based-virtual-private-network)
@@ -84,6 +88,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 - [Vulnerability Scanners](#vulnerability-scanners)
   - [Nessus Essentials](#nessus-essentials--download--documentation----proprietary-vulnerability-scanner-developed-by-tenable)
   - [OpenVAS](#openvas--download--documentation----full-featured-scan-engine-that-executes-vulnerability-tests-vts-against-target-systems)
+  - [Vega](#vega--download--documentation----gui-based-platform-for-testing-web-application-security)
 
 ## Encryption Tools
 
@@ -123,6 +128,8 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **The Hive** ( [Download](https://docs.strangebee.com/thehive/download/) / [Documentation](https://docs.strangebee.com/) ) - _Incident Response Platform._
 
+##### **Velociraptor** ( [Download](https://docs.velociraptor.app/downloads/) / [Documentation](https://docs.velociraptor.app/docs/overview/) ) - _Open-source endpoint monitoring, digital forensic and cyber response platform._
+
 ## Infrastructure Deployment / Maintenance
 
 ##### **Ansible** ( [Download](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) / [Documentation](https://docs.ansible.com/users.html) ) - _Infrastrucutre as code tool used for configuration management._
@@ -143,7 +150,9 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **Suricata** ( [Download](https://suricata.io/download/) / [Documentation](https://docs.suricata.io/en/latest/) ) - _Open-source engine with NIDS, NIPS and Network Monitoring capabilities._
 
-## Network Analysis Tools (Network Analysers)
+## Network Analysis Tools (Network Analysers) / Monitoring
+
+##### **OpenNMS Horizon** ( [Download](https://github.com/OpenNMS/opennms) / [Documentation](https://docs.opennms.com/horizon/33/index.html) ) - _Open-source network monitoring solution_
 
 ##### **Wireshark** ( [Download](https://www.wireshark.org/download.html) / [Documentation](https://www.wireshark.org/docs/wsug_html_chunked/index.html) ) - _Network packet and protocol analyser, prsenting captured data in as much detail as possible._
 
@@ -209,7 +218,11 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ## Threat Hunting
 
-##### The Hunting ELK ( [Download](https://thehelk.com/installation.html) / [Documentation](https://thehelk.com/intro.html) ) - _Open-source Threat Hunting platform with advanced analytics capabilities._
+##### **APT-Hunter** ( [Download](https://github.com/ahmedkhlief/APT-Hunter) / [Documentation](https://shells.systems/introducing-apt-hunter-threat-hunting-tool-via-windows-event-log/) ) - _Threat hunting tool for Windows event logs._
+
+##### **Cuckoo Sandbox** ( [Download](https://cuckoosandbox.org/) / [Documentation](https://cuckoo.sh/docs/) ) - _Open-source automated malware analysis system._
+
+##### **The Hunting ELK** ( [Download](https://thehelk.com/installation.html) / [Documentation](https://thehelk.com/intro.html) ) - _Open-source Threat Hunting platform with advanced analytics capabilities._
 
 ## Virtual Private Netowrk (VPN)
 
@@ -222,4 +235,6 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 ##### **Nessus Essentials** ( [Download](https://www.tenable.com/products/nessus/nessus-essentials) / [Documentation](https://docs.tenable.com/Nessus.htm) ) - _Proprietary vulnerability scanner developed by Tenable._
 
 ##### **OpenVAS** ( [Download](https://github.com/greenbone/openvas-scanner) / [Documentation](https://greenbone.github.io/docs/latest/) ) - _Full-featured scan engine that executes Vulnerability Tests (VTs) against target systems._
+
+##### **Vega** ( [Download](https://subgraph.com/vega/download/index.en.html) / [Documentation](https://subgraph.com/vega/documentation/index.en.html) ) - _GUI based platform for testing web application security._
 
