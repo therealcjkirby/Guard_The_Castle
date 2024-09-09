@@ -81,6 +81,8 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 - [Threat Hunting](#threat-hunting)
   - [APT-Hunter](#apt-hunter--download--documentation----threat-hunting-tool-for-windows-event-logs)
   - [Cuckoo Sandbox](#cuckoo-sandbox--download--documentation----open-source-automated-malware-analysis-system)
+  - [Hayabusa](#hayabusa--download--documentation----windows-event-log-fast-forensics-timeline-generator-and-threat-hunting-tool)
+  - [Malwoverview](#malwoverview--download--documentation----python-based-first-response-tool-for-threat-hunting)
   - [The Hunting ELK](#the-hunting-elk--download--documentation----open-source-threat-hunting-platform-with-advanced-analytics-capabilities)
 - [Virtual Private Network (VPN)](#virtual-private-netowrk-vpn)
   - [OpenVPN](#openvpn--download--documentation----traditional-ssltls-based-virtual-private-network)
@@ -221,6 +223,10 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 ##### **APT-Hunter** ( [Download](https://github.com/ahmedkhlief/APT-Hunter) / [Documentation](https://shells.systems/introducing-apt-hunter-threat-hunting-tool-via-windows-event-log/) ) - _Threat hunting tool for Windows event logs._
 
 ##### **Cuckoo Sandbox** ( [Download](https://cuckoosandbox.org/) / [Documentation](https://cuckoo.sh/docs/) ) - _Open-source automated malware analysis system._
+
+##### **Hayabusa** ( [Download](https://github.com/Yamato-Security/hayabusa/tree/main?tab=readme-ov-file#startup) / [Documentation](https://github.com/Yamato-Security/hayabusa) ) - _Windows event log fast forensics timeline generator and threat hunting tool._
+
+##### **Malwoverview** ( [Download](https://github.com/alexandreborges/malwoverview?tab=readme-ov-file#installation) / [Documentation](https://github.com/alexandreborges/malwoverview) ) - _Python based first response tool for threat hunting._
 
 ##### **The Hunting ELK** ( [Download](https://thehelk.com/installation.html) / [Documentation](https://thehelk.com/intro.html) ) - _Open-source Threat Hunting platform with advanced analytics capabilities._
 
