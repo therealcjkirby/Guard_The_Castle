@@ -55,7 +55,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
   - [Masscan](#masscan--download--documentation----similar-to-nmap-however-operates-much-faster-and-can-scan-a-large-number-of-ports)
   - [nmap](#nmap--download--documentation----open-source-tool-for-network-exploration-and-security-auditing)
   - [zmap](#zmap--download--documentation----fast-single-packet-network-scanner-designed-for-internet-wide-network-surveys)
-- [Programming / Scripting / Decarative (Database) Languages](#programming--scripting--decarative-database-languages)
+- [Programming / Scripting / Declarative (Database) Languages](#programming--scripting--decarative-database-languages)
   - [Bash](#bash---default-scripting-language-for-most-linux-distributions)
   - [C](#c---general-purpose-programming-language-that-provides-low-level-access-to-system-memory)
   - [Go](#golang---high-level-programming-language-designed-at-google)
@@ -170,7 +170,7 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **zmap** ( [Download](https://github.com/zmap/zmap?tab=readme-ov-file) / [Documentation](https://github.com/zmap/zmap/wiki/Getting-Started-Guide) ) - _Fast single packet network scanner designed for Internet-wide network surveys._
 
-## Programming / Scripting / Decarative (Database) Languages
+## Programming / Scripting / Declarative (Database) Languages
 
 ##### **[Bash](https://www.gnu.org/software/bash/)** - _Default scripting language for most Linux distributions._
 
