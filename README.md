@@ -188,6 +188,16 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 > I have only provided the links to the official documentation. Many of these langauges are already pre-installed on distributions or can be easily accessed either by installing packages or installing an IDE like VS Code or PyCharm. There is also a plethora of free and accessible training material for these languages. Find a method that suits your learning style.
 
+## Sandboxes
+
+##### **AnyRun** ( [Browser Tool](https://app.any.run/) / [Documentation](https://app.any.run/docs/) ) - _Browser based interactive malware analysis service for dynamic and static research._
+
+##### **Cuckoo** ( [Download](https://cuckoosandbox.org/download) / [Documentation](https://cuckoo.sh/docs/) ) - _Open source software for automating analysis of suspicious files._
+
+##### **REMnux** ( [Download](https://docs.remnux.org/install-distro/get-virtual-appliance) / [Documentation](https://docs.remnux.org/) ) - _Linux toolkit for reverse-engineering and analyzing malicious software._
+
+##### **VirusTotal** ( [Browser Tool](https://www.virustotal.com/gui/home/upload) / [Documentation](https://docs.virustotal.com/docs/how-it-works) ) - _Browser based sandbox used to analyse malicious software / URLs._
+
 ## Security Distributions (Linux)
 
 ##### **Kali Linux** ( [Download](#kali-platforms) / [Documentation](https://www.kali.org/docs/) ) - _Distribution which allows users to perform advanced penetration testing and security auditing._
