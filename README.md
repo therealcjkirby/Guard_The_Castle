@@ -63,6 +63,12 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
   - [Powershell](#powershell---default-scripting-language-for-windows)
   - [Python](#python---clear-and-powerful-object-oriented-programming-language)
   - [Structured Query Language (SQL)](#structured-query-language-sql---language-used-to-query-sql-or-relational-databases)
+- [Sandboxes](#sandboxes)
+  - [Any.Run](#anyrun--browser-tool--documentation----browser-based-interactive-malware-analysis-service-for-dynamic-and-static-research)
+  - [Cuckoo](#cuckoo--download--documentation----open-source-software-for-automating-analysis-of-suspicious-files)
+  - [Hybrid Analysis](#hybrid-analysis--browser-tool--documentation----_-browser-based-malware-analysis-service-for-in-depth-static-and-dynamic-analysis)
+  - [REMnux](#remnux--download--documentation----linux-toolkit-for-reverse-engineering-and-analyzing-malicious-software)
+  - [VirusTotal](#virustotal--browser-tool--documentation----browser-based-sandbox-used-to-analyse-malicious-software--urls)
 - [Security Distributions (Linux)](#security-distributions-linux)
   - [Kali Linux](#kali-linux--download--documentation----_distribution-which-allows-users-to-perform-advanced-penetration-testing-and-security-auditing)
   - [ParrotOS](#parrotos--download--documentation----distribution-designed-for-security-experts-developers-and-privacy-aware-people)
@@ -194,6 +200,8 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 
 ##### **Cuckoo** ( [Download](https://cuckoosandbox.org/download) / [Documentation](https://cuckoo.sh/docs/) ) - _Open source software for automating analysis of suspicious files._
 
+##### **Hybrid Analysis** ( [Browser Tool](https://www.hybrid-analysis.com/#) / [Documentation](https://www.hybrid-analysis.com/knowledge-base) ) - _ Browser based malware analysis service for in-depth static and dynamic analysis.
+
 ##### **REMnux** ( [Download](https://docs.remnux.org/install-distro/get-virtual-appliance) / [Documentation](https://docs.remnux.org/) ) - _Linux toolkit for reverse-engineering and analyzing malicious software._
 
 ##### **VirusTotal** ( [Browser Tool](https://www.virustotal.com/gui/home/upload) / [Documentation](https://docs.virustotal.com/docs/how-it-works) ) - _Browser based sandbox used to analyse malicious software / URLs._
@@ -231,8 +239,6 @@ Guard the Castle was structured to be used by anyone and everyone, as such only 
 ## Threat Hunting
 
 ##### **APT-Hunter** ( [Download](https://github.com/ahmedkhlief/APT-Hunter) / [Documentation](https://shells.systems/introducing-apt-hunter-threat-hunting-tool-via-windows-event-log/) ) - _Threat hunting tool for Windows event logs._
-
-##### **Cuckoo Sandbox** ( [Download](https://cuckoosandbox.org/) / [Documentation](https://cuckoo.sh/docs/) ) - _Open-source automated malware analysis system._
 
 ##### **Hayabusa** ( [Download](https://github.com/Yamato-Security/hayabusa/tree/main?tab=readme-ov-file#startup) / [Documentation](https://github.com/Yamato-Security/hayabusa) ) - _Windows event log fast forensics timeline generator and threat hunting tool._
 
